@@ -1,0 +1,18 @@
+{
+  "name": "userapi",
+  "version": "1.0.0",
+  "description": "An api to create, retrieve and update user data",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "SuhailSherief",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5",
+    "nodemon": "^2.0.20"
+  }
+}
